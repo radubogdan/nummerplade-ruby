@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Ruby wrapper for Nummerplade API}
   spec.description   = %q{Find information about Danish vehicles}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/radubogdan/nummerplade-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "pry"
+  spec.add_development_dependency "pry", "~> 0"
 end
